@@ -39,14 +39,13 @@ LogLens works in a complete pipeline:
 ## 📸 Screenshots
 
 ### 1️⃣ Log Fetching + Processing
-![Log Fetching]([assets/fetching_processing.jpeg](https://github.com/PriyankaSajnani/Scalable-Log-Analysis-and-Interactive-Querying-using-RAG-and-LLMs/blob/main/LogLens/assets/fetching_processing.jpeg))
+![Log Fetching](LogLens/assets/fetching_processing.jpeg)
 
 ### 2️⃣ AI Summary Report Generation
-![AI Summary](a[ssets/Summary.jpeg](https://github.com/PriyankaSajnani/Scalable-Log-Analysis-and-Interactive-Querying-using-RAG-and-LLMs/blob/main/LogLens/assets/Summary.jpeg))
+![AI Summary](LogLens/assets/Summary.jpeg)
 
 ### 3️⃣ Interactive Log Chat
-![Interactive Chat]([assets/Interactive_log_chat.jpeg](https://github.com/PriyankaSajnani/Scalable-Log-Analysis-and-Interactive-Querying-using-RAG-and-LLMs/blob/main/LogLens/assets/Interactive_log_chat.jpeg))
-
+![Interactive Chat](LogLens/assets/Interactive_log_chat.jpeg)
 
 ---
 ## 🎥 Demo Video
