@@ -90,9 +90,9 @@ ollama pull llama3.2
 python fetching.py
 ```
 This will automatically:
--Fetch Windows System logs
--Save logs into a CSV file
--Open the Processing GUI
--Clean and filter logs (Error/Warning/Critical)
--Generate AI Summary + Recommendations
--Start interactive chat for log understanding
+- Fetch Windows System logs
+- Save logs into a CSV file
+- Open the Processing GUI
+- Clean and filter logs (Error/Warning/Critical)
+- Generate AI Summary + Recommendations
+- Start interactive chat for log understanding
