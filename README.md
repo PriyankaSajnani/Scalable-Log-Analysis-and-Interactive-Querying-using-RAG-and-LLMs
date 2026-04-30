@@ -45,7 +45,7 @@ LogLens works in a complete pipeline:
 ![AI Summary](assets/Summary.jpeg)
 
 ### 3️⃣ Interactive Log Chat
-![Interactive Chat](assets/Interactive-log_chat.png)
+![Interactive Chat](assets/Interactive_log_chat.jpeg)
 
 
 ---
