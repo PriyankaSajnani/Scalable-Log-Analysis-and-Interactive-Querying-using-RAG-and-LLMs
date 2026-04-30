@@ -45,7 +45,7 @@ LogLens works in a complete pipeline:
 ![AI Summary](a[ssets/Summary.jpeg](https://github.com/PriyankaSajnani/Scalable-Log-Analysis-and-Interactive-Querying-using-RAG-and-LLMs/blob/main/LogLens/assets/Summary.jpeg))
 
 ### 3️⃣ Interactive Log Chat
-![Interactive Chat](assets/Interactive_log_chat.jpeg)
+![Interactive Chat]([assets/Interactive_log_chat.jpeg](https://github.com/PriyankaSajnani/Scalable-Log-Analysis-and-Interactive-Querying-using-RAG-and-LLMs/blob/main/LogLens/assets/Interactive_log_chat.jpeg))
 
 
 ---
