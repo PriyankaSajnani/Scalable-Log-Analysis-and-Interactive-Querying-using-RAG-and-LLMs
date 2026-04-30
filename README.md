@@ -62,8 +62,6 @@ Download the latest LogLens installer from GitHub Releases:
 
 ➡️ [Download LogLens Installer](../../releases)
 
----
-
 ### Option 2: Run from Source Code
 
 #### 1️⃣ Clone the Repository
@@ -82,6 +80,8 @@ Install Ollama from the official website.
 ```bash
 ollama pull llama3.2
 ```
+
+---
 
 ## ▶️ How to Run
 
