@@ -1,46 +1,67 @@
-# LogLens – AI-Powered System Log Analysis
+# 🔍 LogLens – AI-Powered Windows System Log Analyzer (RAG + LLaMA)
 
-LogLens is an automated system log analysis tool that collects, cleans, and analyzes Windows Event Logs using Python and Retrieval-Augmented Generation (RAG). It enables interactive log querying, AI-generated summaries, and actionable recommendations using a locally hosted Large Language Model (LLaMA via Ollama).
-
----
-
-## Features
-- Automated Windows Event Log collection and CSV generation
-- Severity-based filtering (Error, Warning, Critical)
-- Duplicate log removal and rule-based preprocessing
-- Retrieval of relevant log patterns using TF-IDF and cosine similarity
-- AI-powered log summarization and interactive chat-based analysis
-- Local LLM execution using Ollama (no cloud dependency)
+LogLens is an automated Windows Event Log analysis tool that fetches, cleans, and analyzes system logs using Python and Retrieval-Augmented Generation (RAG).  
+It provides AI-generated summaries, root cause hints, risk identification, and interactive chat-based troubleshooting using a locally hosted LLM (LLaMA via Ollama).
 
 ---
 
-## Technology Stack
+## 🚀 Key Features
+- Automated Windows Event Log collection (System logs)
+- Severity-based filtering (Error / Warning / Critical)
+- Duplicate log removal and preprocessing pipeline
+- Retrieval using TF-IDF + cosine similarity (RAG approach)
+- AI-powered log explanation and summarization using LLaMA (Ollama)
+- Interactive CLI-based log assistant for queries and troubleshooting
+- Offline AI support (runs locally, no cloud dependency)
+- Packaged Windows installer available via GitHub Releases
+
+---
+
+## 🛠️ Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn (TF-IDF, cosine similarity)
+- PyWin32 (Windows Event Logs)
 - Ollama (LLaMA 3.2)
-- Tkinter (GUI)
-- PowerShell (setup & automation)
+- Tkinter (GUI for file selection)
+- PowerShell (launcher automation)
 
 ---
 
-## How It Works
-1. Fetch system logs from Windows Event Viewer
-2. Preprocess and clean logs
-3. Retrieve relevant log patterns using classical NLP
-4. Generate insights and explanations using an LLM
-5. Enable interactive querying via chat interface
+## 📌 Project Workflow
+LogLens works in a complete pipeline:
+
+1. **fetching.py** → Fetches Windows System Event Logs and exports to CSV  
+2. **processing.py** → Cleans logs (filtering, duplicate removal, preprocessing)  
+3. **analysis.py** → Applies RAG + LLM to generate insights and interactive log chat
 
 ---
 
-## Use Cases
-- System monitoring and troubleshooting
-- DevOps and SRE log analysis
-- Root cause investigation
-- Learning and experimentation with RAG-based systems
+## 📸 Screenshots
+
+### 1️⃣ Log Fetching + Processing
+![Log Fetching](assets/fetching_processing.jpeg)
+
+### 2️⃣ AI Summary Report Generation
+![AI Summary](assets/Summary.jpeg)
+
+### 3️⃣ Interactive Log Chat
+![Interactive Chat](assets/Interactive-log_chat.png)
 
 ---
 
-## Note
-This project focuses on log understanding and explanation rather than traditional anomaly detection or classification models.
+## ⚙️ Installation
 
+### Option 1: Install using Windows Installer (Recommended)
+Download the latest installer from GitHub Releases:
+
+➡️ [Download LogLens Installer](../../releases)
+
+---
+
+### Option 2: Run from Source Code
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/LogLens.git
+cd LogLens
