@@ -34,12 +34,6 @@ LogLens works in a complete pipeline:
 1. **fetching.py** → Fetches Windows System Event Logs and exports to CSV  
 2. **processing.py** → Cleans logs (filtering, duplicate removal, preprocessing)  
 3. **analysis.py** → Applies RAG + LLM to generate insights and interactive log chat
-
----
-## 🎥 Demo Video
-📌 Watch the working demo here:  
-[LogLens Project Demo](https://www.youtube.com/watch?v=vJXvizxYr3Y)
-
 ---
 
 ## 📸 Screenshots
@@ -53,12 +47,18 @@ LogLens works in a complete pipeline:
 ### 3️⃣ Interactive Log Chat
 ![Interactive Chat](assets/Interactive-log_chat.png)
 
+
+---
+## 🎥 Demo Video
+📌 Watch the working demo here:  
+[LogLens Project Demo](https://www.youtube.com/watch?v=vJXvizxYr3Y)
+
 ---
 
 ## ⚙️ Installation
 
-### Option 1: Install using Windows Installer (Recommended)
-Download the latest installer from GitHub Releases:
+### Option 1: Download Windows Installer (Recommended)
+Download the latest LogLens installer from GitHub Releases:
 
 ➡️ [Download LogLens Installer](../../releases)
 
@@ -66,7 +66,33 @@ Download the latest installer from GitHub Releases:
 
 ### Option 2: Run from Source Code
 
-#### 1. Clone the repository
+#### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/LogLens.git
+git clone https://github.com/YOUR_USERNAME/LogLens.git
 cd LogLens
+```
+
+#### 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### 3️⃣ Install Ollama (Required for AI Summary)
+Install Ollama from the official website.
+```bash
+ollama pull llama3.2
+```
+
+## ▶️ How to Run
+
+### ✅ Option 1: Run Full Pipeline (Recommended)
+```bash
+python fetching.py
+```
+This will automatically:
+-Fetch Windows System logs
+-Save logs into a CSV file
+-Open the Processing GUI
+-Clean and filter logs (Error/Warning/Critical)
+-Generate AI Summary + Recommendations
+-Start interactive chat for log understanding
