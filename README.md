@@ -96,3 +96,14 @@ This will automatically:
 - Clean and filter logs (Error/Warning/Critical)
 - Generate AI Summary + Recommendations
 - Start interactive chat for log understanding
+
+### ✅ Option 2: Run Modules Separately
+Run log cleaning:
+```bash
+python processing.py
+```
+
+Run AI analysis:
+```bash
+python analysis.py
+```
