@@ -36,6 +36,11 @@ LogLens works in a complete pipeline:
 3. **analysis.py** → Applies RAG + LLM to generate insights and interactive log chat
 
 ---
+## 🎥 Demo Video
+📌 Watch the working demo here:  
+[LogLens Project Demo](https://www.youtube.com/watch?v=vJXvizxYr3Y)
+
+---
 
 ## 📸 Screenshots
 
