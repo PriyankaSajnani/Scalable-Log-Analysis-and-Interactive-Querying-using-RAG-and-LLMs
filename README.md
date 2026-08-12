@@ -50,7 +50,7 @@ LogLens works in a complete pipeline:
 ---
 ## 🎥 Demo Video
 📌 Watch the working demo here:  
-[LogLens Project Demo](https://www.youtube.com/watch?v=vJXvizxYr3Y)
+[LogLens Project Demo](https://youtu.be/A6nDJG_YCDk)
 
 ---
 
